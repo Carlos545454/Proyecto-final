@@ -1,11 +1,28 @@
+.carousel {
+  background-color: #b3b3b3; /* Fondo gris más oscuro */
+  padding: 2rem;
+  border-radius: 10px; /* Esquinas redondeadas */
+}
+
+.carousel-container {
+  padding: 20px; /* Espacio interno para que el carrusel no quede pegado al borde */
+  border-radius: 15px; /* Esquinas redondeadas */
+  max-width: 80%; /* Ajusta el tamaño máximo del carrusel */
+  margin: auto; /* Centra el carrusel en la página */
+}
+
+.carousel-item img {
+  height: auto; /* Ajustar automáticamente la altura según el ancho */
+  max-height: 300px; /* Limita la altura de las imágenes */
+  width: auto; /* Hace que las imágenes se ajusten proporcionalmente */
+  object-fit: contain; /* No deja que se corten partes importantes de la imagen */
+  margin: auto; /* Centra las imágenes dentro del carrusel */
+}
+
 .carousel-caption {
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 1rem;
-    border-radius: 10px;
-  }
-  
-  .carousel-item img {
-    height: 400px; /* Ajusta según tu diseño */
-    object-fit: cover;
-  }
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  border-radius: 20px;
+}
+
   

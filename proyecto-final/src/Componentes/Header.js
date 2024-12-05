@@ -29,7 +29,7 @@ const Header = () => {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img
-              src="/img/Diapositiva1.webp" // Ruta corregida
+              src="/img/Diapositiva.jpeg" // Ruta de la imagen
               className="d-block w-100"
               alt="Diapositiva 1"
             />
@@ -40,7 +40,7 @@ const Header = () => {
           </div>
           <div className="carousel-item">
             <img
-              src="/img/Diapositiva2.jpg" // Ruta corregida
+              src="/img/Diapositiva2.jpg" // Ruta de la imagen
               className="d-block w-100"
               alt="Diapositiva 2"
             />
@@ -51,7 +51,7 @@ const Header = () => {
           </div>
           <div className="carousel-item">
             <img
-              src="/img/Diapositiva3.png" // Ruta corregida
+              src="/img/Diapositiva3.png" // Ruta de la imagen
               className="d-block w-100"
               alt="Diapositiva 3"
             />
